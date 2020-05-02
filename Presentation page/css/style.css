@@ -1,0 +1,143 @@
+.image {
+    max-width: 100%;
+    height: auto
+}
+
+img {
+    vertical-align: middle
+}
+
+a {
+    color: inherit
+}
+
+.button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+.tag {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center
+}
+
+.row:after,
+.row:before {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.col,
+.half,
+.third,
+.twothird,
+.threequarter,
+.quarter {
+    float: left;
+    width: 100%
+}
+
+.col.s3 {
+    width: 24.99999%
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.top {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0
+}
+
+.display-bottomleft {
+    position: absolute;
+    left: 0;
+    bottom: 0
+}
+
+.display-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.row-padding,
+.row-padding>.col {
+    padding: 0 8px
+}
+
+.grayscale-min {
+    filter: grayscale(50%)
+}
+
+.small {
+    font-size: 12px!important
+}
+
+.large {
+    font-size: 18px!important
+}
+
+.xlarge {
+    font-size: 24px!important
+}
+
+.center {
+    text-align: center!important
+}
+
+.padding {
+    padding: 8px 16px!important
+}
+
+.padding-large {
+    padding: 12px 24px!important
+}
+
+.padding-64 {
+    padding-top: 64px;
+    padding-bottom: 64px
+}
+
+.teal {
+    color: #fff!important;
+    background-color: #009688!important
+}
+
+.black {
+    color: #fff!important;
+    background-color: #000!important
+}
+
+.sand {
+    color: #000!important;
+    background-color: #fdf5e6!important
+}
+
+.text-white {
+    color: #fff!important
+}
+
+.text-black {
+    color: #000!important
+}
